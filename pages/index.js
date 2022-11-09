@@ -52,6 +52,12 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        {/* MOOD */}
+        <a href="/mood">
+          <h2>MOOD</h2>
+        </a>
+
       </main>
 
       <footer className={styles.footer}>
