@@ -57,7 +57,14 @@ export default function Home() {
         <a href="/mood">
           <h2>MOOD</h2>
         </a>
+        
+        <a href="/login">
+          <h2>LOGIN</h2>
+        </a>
 
+        <a href="/register">
+          <h2>SIGN UP</h2>
+        </a>
       </main>
 
       <footer className={styles.footer}>
