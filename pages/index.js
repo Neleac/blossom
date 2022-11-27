@@ -65,6 +65,11 @@ export default function Home() {
         <a href="/register">
           <h2>SIGN UP</h2>
         </a>
+
+        <a href="/journalentry">
+          <h2>JOURNAL ENTRY</h2>
+        </a>
+
       </main>
 
       <footer className={styles.footer}>
