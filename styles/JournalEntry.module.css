@@ -1,18 +1,18 @@
 
-#section {
-    height: 500px;
-    width: 600px;
-}
+
 
 
 #body {
-    background: #55a0dd;
+    background: #F1E3E1;
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+
 
 .col {
     background-color: #fff;
@@ -34,7 +34,6 @@
 .input {
     outline: none;
     border: none;
-    width: 50px;
     color: #131c35;
     font-size: 24px;
     padding: 10px 0px;
@@ -83,4 +82,5 @@
     outline: none;
     border: none;
     resize: vertical;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

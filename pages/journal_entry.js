@@ -21,10 +21,10 @@ function JournalEntry() {
         <div id={styles.body}>
             <div className={styles.row}>
                 <div className={styles.col}>
-                    <div className= {`{styles.first} {styles.box}`}>
-                        <input className="input" id="font-size" type="number" value="16" min="1" max="100" onChange="f1(this)" />
+                    <div className= {`${styles.first} ${styles.box}`}>
+                        <input className={styles.input} id="font-size" type="number" value="16" min="1" max="100" onChange="f1(this)" />
                     </div>
-                    <div className={`{styles.second} {styles.box}`}>
+                    <div className={`${styles.second} ${styles.box}`}>
                         <button className={styles.button} type="button">
                         <FontAwesomeIcon icon={faBold}/>
                         </button>
@@ -35,7 +35,7 @@ function JournalEntry() {
                         <FontAwesomeIcon icon={faUnderline}/>
                         </button>
                     </div>
-                    <div className={`{styles.third} {styles.box}`}>
+                    <div className={`${styles.third} ${styles.box}`}>
                         <button className={styles.button} type="button">
                         <FontAwesomeIcon icon={faAlignLeft}/>
                         </button>
@@ -46,19 +46,19 @@ function JournalEntry() {
                         <FontAwesomeIcon icon={faAlignRight}/>
                         </button>
                     </div>
-                    <div className={`{styles.fourth} {styles.box}`}>
+                    <div className={`${styles.fourth} ${styles.box}`}>
                         <button className={styles.button} type="button">aA</button>
                         <button className={styles.button} type="button">
                         <FontAwesomeIcon icon={faTextSlash}/>
                         </button>
-                        <input className="input" type="color"/>
+                        <input type="color"/>
                     </div>
                 </div>
             </div>
             <br />
                 <div className={styles.row}>
                     <div className={styles.col}>
-                        <textarea id={styles.textarea} placeholder="Your text here "></textarea>
+                        <textarea id={styles.textarea1} placeholder="Your text here "></textarea>
                     </div>
                 </div>
         </div>
