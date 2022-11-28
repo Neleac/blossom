@@ -58,10 +58,15 @@ function JournalEntry() {
             <br />
                 <div className={styles.textareas}>
                     <div className={styles.col}>
-                        <textarea id={styles.textarea1} placeholder="Your text here "></textarea>
+                        <textarea id={styles.textarea1} placeholder="Start writing "></textarea>
                     </div>
-                    <div className={styles.col}>
-                        <textarea id={styles.textarea1} placeholder="Your text here "></textarea>
+
+                    <div className={styles.col} id={styles.textarea2}>
+                        <div className={styles.reflectiontitle} id={styles.textarea2}>
+                                My Reflections
+                            </div>
+                            <hr />
+                            <div className={styles.textarea3}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
                     </div>
                 </div>
         </div>

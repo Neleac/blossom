@@ -96,3 +96,29 @@
 .textareas :first-child {
     width: 80em;
   }
+
+  #textarea2 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    resize: vertical;
+}
+
+#textarea3 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    resize: vertical;
+}
+  
+  .reflectiontitle {
+    font-size: large;
+    color: #595959;
+    font-weight: 550;
+    margin: 5px;
+    align-self: center;
+}
