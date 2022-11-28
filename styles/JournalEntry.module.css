@@ -84,3 +84,15 @@
     resize: vertical;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.textareas {
+    display: flex;
+    width: 80%;
+    gap: 10px;
+    resize: vertical;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textareas :first-child {
+    width: 80em;
+  }

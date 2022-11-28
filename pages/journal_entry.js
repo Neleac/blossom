@@ -56,7 +56,10 @@ function JournalEntry() {
                 </div>
             </div>
             <br />
-                <div className={styles.row}>
+                <div className={styles.textareas}>
+                    <div className={styles.col}>
+                        <textarea id={styles.textarea1} placeholder="Your text here "></textarea>
+                    </div>
                     <div className={styles.col}>
                         <textarea id={styles.textarea1} placeholder="Your text here "></textarea>
                     </div>
