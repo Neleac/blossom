@@ -1,4 +1,5 @@
 import styles from '../styles/JournalEntry.module.css'
+import Image from 'next/image'
 
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -10,14 +11,34 @@ import {
     faAlignCenter,
     faAlignRight,
     faTextSlash,
+    faHome,
+    faUser
 } from '@fortawesome/free-solid-svg-icons'
-
-
 
 
 function JournalEntry() {
     return (
         <div id={styles.section}>
+            <div id={styles.navbar}>
+                <Image id={styles.logo} src="/logo_filled.png" alt="logo" width="60" height="60"/>
+
+                <div id={styles.jetitle}>
+                My Journal Entry
+                </div>
+                    
+
+                <div id={styles.navbuttons}>
+                    <button className={styles.button} type="button">
+                        <FontAwesomeIcon icon={faHome}/>
+                    </button>
+
+                    <button className={styles.button} type="button">
+                        <FontAwesomeIcon icon={faUser}/>
+                    </button>
+                </div>
+            </div>
+            
+
         <div id={styles.body}>
             <div className={styles.row}>
                 <div className={styles.col}>

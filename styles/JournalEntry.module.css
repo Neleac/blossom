@@ -1,10 +1,33 @@
 
 
+#navbar {
+    width: 100%;
+    background: #F8C0BE;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#jetitle{
+    font-size: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+#navbuttons {
+    margin-left: auto;
+    background: #F8C0BE;
+    display: flex;
+    justify-self: right;
+    align-items: center;
+    gap: 20px;
+}
 
 
 #body {
     background: #F1E3E1;
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -94,7 +117,7 @@
 }
 
 .textareas :first-child {
-    width: 80em;
+    width: 150em;
   }
 
   #textarea2 {
