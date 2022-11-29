@@ -103,6 +103,9 @@ function JournalEntry() {
                 <button type='button' className={styles.buttonstyle}>
                     Save
                 </button>
+                <button type='button' className={styles.buttonstyle2}>
+                    Cancel
+                </button>
             </div>
         </div>
 
