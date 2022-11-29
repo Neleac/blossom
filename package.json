@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.45.1",
     "@react-three/fiber": "^8.9.1",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
