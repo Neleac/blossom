@@ -54,13 +54,16 @@ export default function Home() {
           </a>
         </div>
 
-        {/* MOOD */}
+        <a href="/home">
+          <h2>HOME</h2>
+        </a>
+
         <a href="/mood">
           <h2>MOOD</h2>
         </a>
 
-        <a href="/home">
-          <h2>HOME</h2>
+        <a href="/growth">
+          <h2>GROWTH</h2>
         </a>
 
       </main>

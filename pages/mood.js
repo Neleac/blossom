@@ -3,7 +3,6 @@ import { Canvas } from '@react-three/fiber'
 import { Slider } from 'antd';
 
 import { Avatar } from '../src/avatar'
-
 import styles from '../styles/Mood.module.css'
 
 

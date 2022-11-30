@@ -5,13 +5,11 @@ import { useGLTF } from "@react-three/drei";
 export function Avatar(props) {
   const { nodes, materials } = useGLTF("/avatar.glb");
 
-  console.log(nodes.Wolf3D_Head.morphTargetDictionary);
-  console.log(nodes.Wolf3D_Head.morphTargetInfluences);
-
   const faceIdxs = nodes.Wolf3D_Head.morphTargetDictionary;
   const faceBlendshapes = nodes.Wolf3D_Head.morphTargetInfluences;
   const teethBlendshapes = nodes.Wolf3D_Teeth.morphTargetInfluences;
 
+  // set face and teeth blendshapes based on slider value
   let weight;
   const mid = (props.min + props.max) / 2;
   if (props.value > mid) {
