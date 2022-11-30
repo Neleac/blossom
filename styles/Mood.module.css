@@ -1,0 +1,21 @@
+.container {
+  height: 100%;
+  background: #F1E3E1;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.canvas {
+  height: 70%;
+}
+
+.slider {
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+}
