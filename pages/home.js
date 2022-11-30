@@ -64,7 +64,7 @@ function Home() {
                             <div className={home.highlightpara}>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
                         </div>
                     </div>
-                    {/* <div className={home.highlight}>
+                    <div className={home.highlight}>
                         <div className={home.image}>
                             <Image src='/21.png' alt="User image" width={65} height={65} style={{boxShadow: '0 1px 1px rgba(0,0,0,0.11),0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11)' }}/>
                         </div>
@@ -72,7 +72,7 @@ function Home() {
                             <div className={home.highlighttitle}>Highlight</div>
                             <div className={home.highlightpara}>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
             <div className={home.content}>
@@ -104,14 +104,14 @@ function Home() {
                                 Things that I am grateful for today:
                             </div>
                             <hr />
-                            <TextArea rows={8} placeholder="Today, I am grateful for..." />
+                            <TextArea rows={11} placeholder="Today, I am grateful for..." />
                         </div>
                         <div className={home.textareadiv}>
                             <div className={home.todotitle}>
                                 What will make today great:
                             </div>
                             <hr />
-                            <TextArea rows={7} placeholder="Today would be great if..." />
+                            <TextArea rows={10} placeholder="Today would be great if..." />
                         </div>
                     </div>
                     <div className={home.icons}>
