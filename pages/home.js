@@ -104,7 +104,7 @@ function Home() {
                                 Things that I am grateful for today:
                             </div>
                             <hr />
-                            <TextArea rows={11} placeholder="Today, I am grateful for..." />
+                            <TextArea rows={10} placeholder="Today, I am grateful for..." />
                         </div>
                         <div className={home.textareadiv}>
                             <div className={home.todotitle}>
@@ -115,8 +115,12 @@ function Home() {
                         </div>
                     </div>
                     <div className={home.icons}>
-                        <FontAwesomeIcon className={home.icontray} icon={faChartLine}></FontAwesomeIcon>
-                        <FontAwesomeIcon className={home.icontray} icon={faFaceSmileBeam}></FontAwesomeIcon>
+                        <a href='\growth'>
+                            <FontAwesomeIcon className={home.icontray} icon={faChartLine}></FontAwesomeIcon>
+                        </a>
+                        <a href='\mood'>
+                            <FontAwesomeIcon className={home.icontray} icon={faFaceSmileBeam}></FontAwesomeIcon>
+                        </a>
                         {/* <FontAwesomeIcon className={home.icontray} icon={faChartSimple}></FontAwesomeIcon> */}
                     </div>
                 </div>
