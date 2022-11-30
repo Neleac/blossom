@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
+
 export function Avatar(props) {
   const { nodes, materials } = useGLTF("/avatar.glb");
 
@@ -9,11 +10,38 @@ export function Avatar(props) {
 
   const faceIdxs = nodes.Wolf3D_Head.morphTargetDictionary;
   const faceBlendshapes = nodes.Wolf3D_Head.morphTargetInfluences;
-  
-  // faceBlendshapes[faceIdxs['mouthSmileLeft']] = 1;
-  // faceBlendshapes[faceIdxs['mouthSmileRight']] = 1;
-  faceBlendshapes[faceIdxs['mouthOpen']] = 1;
-  faceBlendshapes[faceIdxs['mouthSmile']] = 1;
+  const teethBlendshapes = nodes.Wolf3D_Teeth.morphTargetInfluences;
+
+  let weight;
+  const mid = (props.min + props.max) / 2;
+  if (props.value > mid) {
+    weight = (props.value - mid) / (props.max - mid);
+
+    [faceBlendshapes, teethBlendshapes].forEach(blendshapes => {
+      ['mouthSmileLeft', 'mouthSmileRight', 'mouthOpen'].forEach(name => {
+        blendshapes[faceIdxs[name]] = weight;
+      });
+    });
+
+  } else if (props.value < mid) {
+    weight = (props.value - mid) / (props.min - mid);
+
+    [faceBlendshapes, teethBlendshapes].forEach(blendshapes => {
+      ['mouthFrownLeft', 'mouthFrownRight'].forEach(name => {
+        blendshapes[faceIdxs[name]] = weight;
+      });
+      blendshapes[faceIdxs['mouthOpen']] = 0;
+    });
+
+  } else {
+
+    [faceBlendshapes, teethBlendshapes].forEach(blendshapes => {
+      ['mouthSmileLeft', 'mouthSmileRight', 'mouthFrownLeft', 'mouthFrownRight', 'mouthOpen'].forEach(name => {
+        blendshapes[faceIdxs[name]] = 0;
+      });
+    });
+
+  }
 
   return (
     <group {...props} dispose={null}>
