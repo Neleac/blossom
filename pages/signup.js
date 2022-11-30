@@ -5,12 +5,14 @@ function Register() {
     <div className={styles.loginbox}>
       <div className={styles.left}>
         <h1>Sign Up</h1>
-        <input type="text" name="username" placeholder="First name"/>
-        <input type="text" name="username" placeholder="Last name"/>
-        <input type="text" name="email" placeholder="E-mail"/>
-        <input type="password" name="password" placeholder="Password"/>
-        <input type="password" name="password2" placeholder="Confirm password"/>
-        <input type="submit" name="signup_submit" value="Join Blossom"/>
+        <form action="/home">
+          <input type="text" name="username" placeholder="First name"/>
+          <input type="text" name="username" placeholder="Last name"/>
+          <input type="text" name="email" placeholder="E-mail"/>
+          <input type="password" name="password" placeholder="Password"/>
+          <input type="password" name="password2" placeholder="Confirm password"/>
+          <input type="submit" name="signup_submit" value="Join Blossom"/>
+        </form>
       </div>
       <div className={styles.right}>
         <h1>What are some areas in your life you would like to improve?</h1>
