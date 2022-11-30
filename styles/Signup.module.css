@@ -8,7 +8,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.loginbox h1{
+.loginbox h1 {
   margin: 0 0 20px 0;
   font-weight: 300;
   font-size: 28px;
@@ -56,7 +56,7 @@
   background: #16a085;
   border: none;
   border-radius: 2px;
-  color: #FFF;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -77,24 +77,40 @@
   transition: 0.1s ease;
 }
 
-.left p{
-  font-size: 14px;
-}
-
-.left a{
-  color: red;
-  font-weight: bold;
-}
-
 .right {
   position: absolute;
   top: 0;
   right: 0;
+  box-sizing: border-box;
+  padding: 40px;
   width: 400px;
   height: 500px;
+  background-color: #DCEFD3;
 }
 
-.right img {
-  width: 400px;
-  height: 500px;
+.right label {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 35px;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+
+.right input[type="checkbox"] {
+  grid-template-columns: 1em auto;
+  width: 1.3em;
+  height: 1.3em;
+  border: 0.75em solid;
+  cursor: pointer;
+}
+
+.right input[type="checkbox"]:active {
+  width: 1em;
+}
+
+.right input[type="checkbox"]:before,
+.right input[type="checkbox"]:after {
+  display: block;
+  position: absolute;
 }

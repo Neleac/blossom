@@ -2,28 +2,18 @@ import styles from '../styles/Login.module.css'
 
 function Login() {
   return (
-    <div>
-      <div className={styles.column1}>
-        <img src='/logo_not_filled_2.png' />
+    <div className={styles.loginbox}>
+      <div className={styles.left}>
+      <h1>Login</h1>
+        <input type="text" name="username" placeholder="Username" required/>
+        <input type="password" name="password" placeholder="Password" required/>
+        <input type="submit" name="signup_submit" value="Submit"/>
+        <p>Not a user? <a href='/signup' class="create">Create Account</a></p>
       </div>
-      <div className={styles.column2}>
-          <div className={styles.authentication}>
-            <h2>Login</h2>
-            <form>
-              <p>
-                <input type="text" placeholder="Username" required></input>
-              </p>
-              <p>
-                <input type="password" placeholder="Password" required></input>
-              </p>
-              <p>
-                <input type="submit" value="Login"></input>
-              </p>
-            </form>
-            <div type="create">
-              <p>Not a member? <a href="/register">Create Account</a></p>
-            </div>
-          </div>
+      <div>
+      </div>
+      <div className={styles.right}>
+        <img src="/logo_not_filled.png" />
       </div>
     </div>
   )

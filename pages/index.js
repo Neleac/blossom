@@ -62,7 +62,7 @@ export default function Home() {
           <h2>LOGIN</h2>
         </a>
 
-        <a href="/register">
+        <a href="/signup">
           <h2>SIGN UP</h2>
         </a>
       </main>
