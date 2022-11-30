@@ -25,11 +25,13 @@ function Home() {
                     </span>
                     
                 </div>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <button type='button' className={home.buttonstyle}>
-                    Start Journaling
-                    </button>
-                </div>
+                    <a href='\journal' style={{textDecoration: 'none'}}>
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                            <button type='button' className={home.buttonstyle}>
+                            Start Journaling
+                            </button>
+                        </div>
+                    </a>
                 <br />
                 <div className={home.listclass} id="countdown">
                     <li className={home.list} style={{borderRight: '1.5px solid #d9d9d9'}}><span className={home.boldletters} id="days">189</span>entries</li>
@@ -104,7 +106,7 @@ function Home() {
                                 Things that I am grateful for today:
                             </div>
                             <hr />
-                            <TextArea rows={10} placeholder="Today, I am grateful for..." />
+                            <TextArea rows={11} placeholder="Today, I am grateful for..." />
                         </div>
                         <div className={home.textareadiv}>
                             <div className={home.todotitle}>
