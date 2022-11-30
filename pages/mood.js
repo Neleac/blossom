@@ -8,10 +8,14 @@ import { Avatar } from '../src/avatar'
 function Mood() {
   return (
     <div className={styles.container}>
+      <h1 className={styles.title}>
+        Mood
+      </h1>
       <Canvas>
-        <ambientLight />
+        <ambientLight intensity={0.1}/>
+        <directionalLight position={[0, 0, 1]}/>
         <Suspense fallback={null}>
-          <Avatar />
+          <Avatar position={[0, -17, 0]} scale={[10, 10, 10]}/>
         </Suspense>
       </Canvas>
     </div>
