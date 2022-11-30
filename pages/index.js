@@ -7,13 +7,15 @@ function Login() {
       <h1>Login</h1>
         <input type="text" name="username" placeholder="Username" required/>
         <input type="password" name="password" placeholder="Password" required/>
-        <input type="submit" name="signup_submit" value="Submit"/>
+        <a href='\home'>
+          <input type="submit" name="signup_submit" value="Submit"/>
+        </a>
         <p>Not a user? <a href='/signup' class="create">Create Account</a></p>
       </div>
       <div>
       </div>
       <div className={styles.right}>
-        <img src="/logo_not_filled.png" />
+        <img src="/name.png" width={100} height={100}/>
       </div>
     </div>
   )

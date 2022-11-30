@@ -6,6 +6,7 @@
   background: #FFF;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  vertical-align: center;
 }
 
 .loginbox h1{
@@ -15,13 +16,17 @@
 }
 
 .left {
+  /* padding-top: 20px; */
   text-align: center;
+  position: relative;
   top: 0;
   left: 0;
   box-sizing: border-box;
   padding: 40px;
+  padding-top: 10%;
   width: 400px;
   height: 500px;
+  background-color: #DCEFD3;
 }
 
 .left input[type="text"],
@@ -40,6 +45,7 @@
   font-weight: 400;
   font-size: 15px;
   transition: 0.2s ease;
+  border-radius: 5px;
 }
 
 .left input[type="text"]:focus,
@@ -82,7 +88,7 @@
 }
 
 .left a{
-  color: red;
+  color: #D73059;
   font-weight: bold;
 }
 
@@ -92,9 +98,12 @@
   right: 0;
   width: 400px;
   height: 500px;
+  vertical-align: center;
+  padding-top: 5%;
 }
 
 .right img {
-  width: 400px;
-  height: 500px;
+  margin: 20px;
+  width: 350px;
+  height: 350px;
 }
