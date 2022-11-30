@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import home from '../styles/homepage.module.css'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,7 +9,6 @@ import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 import { faFaceSmileBeam } from '@fortawesome/free-regular-svg-icons'
 import { Input } from 'antd';
 const { TextArea } = Input;
-import Form from 'react-bootstrap/Form';
 
 
 function Home() {
