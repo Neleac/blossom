@@ -1,4 +1,4 @@
-import styles from '../styles/JournalEntry.module.css'
+import styles from '../styles/Journal.module.css'
 import Image from 'next/image'
 
 
