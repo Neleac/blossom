@@ -2,15 +2,13 @@ import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
 export function Flower(props) {
-  const PROGRESS = 5; // TODO: get this from journal progress
-
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("/flower.glb");
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
     actions.Animation.play();
-    actions.Animation.halt(PROGRESS);
+    actions.Animation.halt(props.progress);
   });
 
   return (
