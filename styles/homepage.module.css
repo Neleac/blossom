@@ -42,7 +42,7 @@
     background-color: #F1E3E1;
     /* background-color: #DCEFD3;
     background-color: #F8C0BE;
-    background-color: #486452; 
+    dark-green: #486452; 
     dark pink #D73059 */
     height: 100%;
     width: 100%;
@@ -238,7 +238,7 @@
 
 .checkbox {
     font-size: large;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
     color: #595959;
     height: 25px;
@@ -266,6 +266,7 @@
     width:5%;
     display: inline-block;
     vertical-align: bottom;
+    margin-left: 1%;
 }
 
 .textareastyle::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -319,4 +320,3 @@
     background-color: #F48A88;
 
 }
-

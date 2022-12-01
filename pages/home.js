@@ -7,6 +7,7 @@ import { MDBCheckbox } from 'mdb-react-ui-kit';
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 import { faFaceSmileBeam } from '@fortawesome/free-regular-svg-icons'
+import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
 import { Input } from 'antd';
 const { TextArea } = Input;
 
@@ -83,7 +84,7 @@ function Home() {
                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." -Author</p>
                     </div>
                     <div style={{width: '14%', display: 'inline-block'}}>
-                        <Image src='/name.png' alt="User image" width={135} height={135} />
+                        <Image src='/name.png' alt="Blossom logo" width={135} height={135} />
                     </div>
                 </div>
                 <div className={home.dailydetails}>
@@ -122,6 +123,9 @@ function Home() {
                         </a>
                         <a href='\mood'>
                             <FontAwesomeIcon className={home.icontray} icon={faFaceSmileBeam}></FontAwesomeIcon>
+                        </a>
+                        <a href='\'>
+                            <FontAwesomeIcon className={home.icontray} icon={faRightFromBracket}></FontAwesomeIcon>
                         </a>
                         {/* <FontAwesomeIcon className={home.icontray} icon={faChartSimple}></FontAwesomeIcon> */}
                     </div>

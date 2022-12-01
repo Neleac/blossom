@@ -1,6 +1,4 @@
 
-
-
 #section {
     background: #F1E3E1;
 }
@@ -8,7 +6,7 @@
 
 #body {
     background: #F1E3E1;
-    height: 80vh;
+    height: 78vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -16,30 +14,43 @@
     flex-direction: column;
 }
 
+#logo {
+    border-radius: 50px;
+    margin: 15px;
+}
+
 #navbar {
     width: 100%;
-    background: #F8C0BE;
+    background: #FFF;
     display: flex;
     justify-items: center;
     align-items: center;
     gap: 20px;
 }
 
-#jetitle{
-    font-size: 20px;
+#jetitle {
+    font-size: 30px;
+    font-weight: bold;
     justify-self: center;
     align-self: center;
+    color: #D73059;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #navbuttons {
     margin-left: auto;
-    background: #F8C0BE;
+    margin-right: 20px;
+    background: #FFF;
     display: flex;
     justify-self: right;
     align-items: center;
     gap: 20px;
 }
 
+#navbuttons:hover, #navbuttons:focus {
+    cursor: pointer;
+}
 
 
 .col {
@@ -114,6 +125,7 @@
     outline: none;
     border: none;
     resize: vertical;
+    font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -145,21 +157,22 @@
     outline: none;
     border: none;
     resize: vertical;
+    
 }
   
   .reflectiontitle {
     font-size: large;
-    color: #595959;
-    font-weight: 550;
+    color: #808080;
+    font-weight: normal;
     margin: 5px;
     align-self: center;
+    font-style: oblique;
 }
 
 #buttonbox {
     display: flex;
     flex-direction: row;     
     justify-content: center; 
-
     padding-bottom: 20px;
     align-items: center; 
     gap: 5em;   
@@ -182,6 +195,8 @@
     0 8px 16px rgba(0,0,0,0.09);
     width: 13%;
     justify-self: center;
+    height: 35px;
+    /* margin-bottom: 30px; */
 }
 
 .buttonstyle2 {
@@ -201,4 +216,14 @@
     0 8px 16px rgba(0,0,0,0.09);
     width: 13%;
     justify-self: center;
+    height: 35px;
+    /* margin-bottom: 30px; */
 }
+
+.todotitle {
+    font-size: large;
+    color: #595959;
+    font-weight: 500;
+    margin: 5px;
+}
+  

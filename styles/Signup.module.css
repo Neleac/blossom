@@ -2,7 +2,7 @@
   position: relative;
   margin: 5% auto;
   width: 800px;
-  height: 500px;
+  height: 600px;
   background: #FFF;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -21,7 +21,7 @@
   box-sizing: border-box;
   padding: 40px;
   width: 400px;
-  height: 500px;
+  height: 600px;
 }
 
 .left input[type="text"],
@@ -85,7 +85,7 @@
   box-sizing: border-box;
   padding: 40px;
   width: 400px;
-  height: 500px;
+  height: 600px;
   background-color: #DCEFD3;
 }
 
