@@ -12,7 +12,7 @@ import elstyle from '../../styles/calendar.module.css'
     <div className={elstyle.navicons} >
           <a href='\home' > <img className={elstyle.homeicon} alt=" Home" src="./home.png"></img></a>
 
-          <a href='\signup'><img className={elstyle.profileicon} alt=" Profile" src="./profile.png"></img> </a>
+          <a href='\signup'><img className={elstyle.profileicon} alt=" profile" src="./profile.png"></img> </a>
      </div>
     </nav>
     )
