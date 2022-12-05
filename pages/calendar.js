@@ -91,12 +91,12 @@ function Home() {
             </tbody>
           </table>
           <div className={newstyle.Mood} >
-            <h2><a href="#">Mood</a></h2>
-            <a href='#'><img className={newstyle.logo} alt="Smily faces" src="./smily.png"></img></a>
+            <h2><a href='\mood'>Mood</a></h2>
+            <a href='\mood'><img className={newstyle.logo} alt="Smily faces" src="./smily.png"></img></a>
           </div>
           <div className={newstyle.Growth} >
-            <h2><a href="#">Growth </a></h2>
-            <a href='#'> <img className={newstyle.logo} alt="Growth chart" src="./growth.jpg"></img></a>
+            <h2><a href='\growth'>Growth </a></h2>
+            <a href='\growth'> <img className={newstyle.logo} alt="Growth chart" src="./growth.jpg"></img></a>
           </div>
         </div>
 
