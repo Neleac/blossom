@@ -45,13 +45,13 @@ function Home() {
                             November 2022
                         </div>
                         <div>
-                            <FontAwesomeIcon className={home.iconstyle} icon={faCalendarDays} style={{boxShadow: '0 1px 1px rgba(0,0,0,0.11),0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11)' }} />
+                        <a href='\calendar' > <FontAwesomeIcon className={home.iconstyle} icon={faCalendarDays} style={{boxShadow: '0 1px 1px rgba(0,0,0,0.11),0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11)' }} /></a>
                         </div>
                     </div>
                     <hr />
                     <div className={home.highlight}>
                         <div className={home.image}>
-                            <Image src='/19.png' alt="User image" width={65} height={65} style={{borderRadius: '7px', boxShadow: '0 1px 1px rgba(0,0,0,0.11),0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11)' }}/>
+                         <Image src='/19.png' alt="User image" width={65} height={65} style={{borderRadius: '7px', boxShadow: '0 1px 1px rgba(0,0,0,0.11),0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11)' }}/>
                         </div>
                         <div className={home.text}>
                             <div className={home.highlighttitle}>Highlight</div>
