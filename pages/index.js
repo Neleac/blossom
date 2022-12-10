@@ -1,4 +1,8 @@
+import Image from 'next/image'
+import Link from 'next/link';
+
 import styles from '../styles/Login.module.css'
+
 
 function Login() {
   return (
@@ -10,12 +14,12 @@ function Login() {
         <a href='\home'>
           <input type="submit" name="signup_submit" value="Submit"/>
         </a>
-        <p>Not a user? <a href='/signup' class="create">Create Account</a></p>
+        <p>Not a user? <Link href='/signup' class="create">Create Account</Link></p>
       </div>
       <div>
       </div>
       <div className={styles.right}>
-        <img src="/name.png" width={100} height={100}/>
+        <Image src="/name.png" alt="name" width={100} height={100}></Image>
       </div>
     </div>
   )

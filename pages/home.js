@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import home from '../styles/homepage.module.css'
+import home from '../styles/Home.module.css'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarDays } from '@fortawesome/free-regular-svg-icons'
-import { MDBCheckbox } from 'mdb-react-ui-kit';
+import { MDBCheckbox } from 'mdb-react-ui-kit'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 import { faFaceSmileBeam } from '@fortawesome/free-regular-svg-icons'
@@ -13,7 +13,7 @@ const { TextArea } = Input;
 
 
 function Home() {
-    const quotes = ['"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.']
+    const quotes = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.']
     return (
         <>
         <div className={home.pagebackground}>
@@ -81,7 +81,7 @@ function Home() {
             <div className={home.content}>
                 <div className={home.header}>
                     <div style={{width: '86%', display: 'inline-block', fontStyle: 'oblique'}}>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." -Author</p>
+                        <p>&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&quot; -Author</p>
                     </div>
                     <div style={{width: '14%', display: 'inline-block'}}>
                         <Image src='/name.png' alt="Blossom logo" width={135} height={135} />

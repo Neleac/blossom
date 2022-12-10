@@ -1,26 +1,28 @@
-import elstyle from "../styles/calendar.module.css";
+import Image from "next/image"
+
+import elstyle from "../styles/Calendar.module.css"
 
 
 export default function Navbar() {
   return (
     <nav className={elstyle.nav}>
-      <img
+      <Image
         className={elstyle.logo}
         alt="Blossom Logo"
         src="name.png"
-      ></img>
+      ></Image>
       <p className={elstyle.sitetitle}>Calendar</p>
       <div className={elstyle.navicons}>
         <a href="\home">
           {" "}
-          <img className={elstyle.homeicon} alt=" Home" src="home.png"></img>
+          <Image className={elstyle.homeicon} alt=" Home" src="home.png"></Image>
         </a>
         <a href="\signup">
-          <img
+          <Image
             className={elstyle.profileicon}
             alt=" profile"
             src="profile.png"
-          ></img>{" "}
+          ></Image>{" "}
         </a>
       </div>
     </nav>
@@ -44,11 +46,11 @@ export function mainContent(count) {
             I want my voice back. This year, I would like to work on that a bit
             more: Finding my voice. Knowing who I am just a little bit better. So
             that I can love me more with each and every passing day. The thought
-            is a little sad actually: We are all so busy with our lives, we don’t
+            is a little sad actually: We are all so busy with our lives, we don&apos;t
             have enough time to grow. And I find that just spending 1-2 hours by
-            yourself, for yourself, isn’t enough at all. It takes 5+ hours
+            yourself, for yourself, isn&apos;t enough at all. It takes 5+ hours
             sometimes of contemplation, of feeling, or exploring that tentative
-            zone of darkness within us. Because it’s within that dark zone where
+            zone of darkness within us. Because it&apos;s within that dark zone where
             the best and beautiful parts of ourselves “hide”. And they “hide” only
             because there is nothing like it in the physical world for us to
             compare it to. For it to be known as real. It takes time and presence
@@ -66,29 +68,29 @@ export function mainContent(count) {
           <p>Journal {count} </p>
           <p>
             {" "}
-            My eyes are getting heavier tonight. I should sleep soon. It’s funny
+            My eyes are getting heavier tonight. I should sleep soon. It&apos;s funny
             how I always think I have nothing to say but once I play with the
             start of ideas, it all starts to come down like rain.
           </p>
           <p>
             {" "}
             I needed this. To know I still have it in me. If I were to ever lose
-            this part of myself… I’m not sure how I’d take that. For sure, I would
+            this part of myself… I&apos;m not sure how I&apos;d take that. For sure, I would
             feel so sad and so alone. Lost even. Writing is another love of mine.
             Writing is a form of looking in the mirror. Like drawing a figure. It
-            is the drawing of one’s soul. Of one’s subconscious. Perhaps if you
-            write the cusp of one’s soul and draw it out like a thread from the
+            is the drawing of one&apos;s soul. Of one&apos;s subconscious. Perhaps if you
+            write the cusp of one&apos;s soul and draw it out like a thread from the
             tangle of nothingness. And perhaps soon – it can become poetry.
           </p>
   
           <p>
             {" "}
             I needed this. To know I still have it in me. If I were to ever lose
-            this part of myself… I’m not sure how I’d take that. For sure, I would
+            this part of myself… I&apos;m not sure how I&apos;d take that. For sure, I would
             feel so sad and so alone. Lost even. Writing is another love of mine.
             Writing is a form of looking in the mirror. Like drawing a figure. It
-            is the drawing of one’s soul. Of one’s subconscious. Perhaps if you
-            write the cusp of one’s soul and draw it out like a thread from the
+            is the drawing of one&apos;s soul. Of one&apos;s subconscious. Perhaps if you
+            write the cusp of one&apos;s soul and draw it out like a thread from the
             tangle of nothingness. And perhaps soon – it can become poetry.
           </p>
         </div>
@@ -111,7 +113,7 @@ export function mainContent(count) {
           </p>
           <p>
             You must take care of yourself even more so during the times the world
-            is busy and can’t seem to care at the moment for you. Later, they will
+            is busy and can&apos;t seem to care at the moment for you. Later, they will
             ask for forgiveness. Later, they will be kind and care. Later they
             will explain. But right now, you must not hurt yourself even more.
           </p>
@@ -123,7 +125,7 @@ export function mainContent(count) {
           </p>
           <p>
             You must take care of yourself even more so during the times the world
-            is busy and can’t seem to care at the moment for you. Later, they will
+            is busy and can&apos;t seem to care at the moment for you. Later, they will
             ask for forgiveness. Later, they will be kind and care. Later they
             will explain. But right now, you must not hurt yourself even more.
           </p>
@@ -136,7 +138,7 @@ export function mainContent(count) {
           <p>Journal {count} </p>
           <p>
             {" "}
-            Am I always going to keep others at arm’s length? You will never be
+            Am I always going to keep others at arm&apos;s length? You will never be
             able to make true, close friends like that. You must learn to give
             completely. Not be afraid. Freely love. Freely give love and affection
             to everyone. It is what you are missing the most from life right now.
@@ -147,7 +149,7 @@ export function mainContent(count) {
           </p>
           <p>
             {" "}
-            Am I always going to keep others at arm’s length? You will never be
+            Am I always going to keep others at arm&apos;s length? You will never be
             able to make true, close friends like that. You must learn to give
             completely. Not be afraid. Freely love. Freely give love and affection
             to everyone. It is what you are missing the most from life right now.
@@ -165,18 +167,18 @@ export function mainContent(count) {
           <p>
             {" "}
             The time I have with myself is the most important. I change. I grow. I
-            know myself a little more each time.{" "}
+            know myself a little more each time.{" "}&apos;
           </p>
           <p>
             {" "}
             I want my voice back. This year, I would like to work on that a bit
             more: Finding my voice. Knowing who I am just a little bit better. So
             that I can love me more with each and every passing day. The thought is
-            a little sad actually: We are all so busy with our lives, we don’t have
+            a little sad actually: We are all so busy with our lives, we don&apos;t have
             enough time to grow. And I find that just spending 1-2 hours by
-            yourself, for yourself, isn’t enough at all. It takes 5+ hours sometimes
+            yourself, for yourself, isn&apos;t enough at all. It takes 5+ hours sometimes
             of contemplation, of feeling, or exploring that tentative zone of
-            darkness within us. Because it’s within that dark zone where the best
+            darkness within us. Because it&apos;s within that dark zone where the best
             and beautiful parts of ourselves “hide”. And they “hide” only because
             there is nothing like it in the physical world for us to compare it to.
             For it to be known as real. It takes time and presence to translate
@@ -230,7 +232,7 @@ export function Reflection(count) {
           <p>
             {" "}
             Some of us may be tempted to try to fool others (or ourselves) into
-            believing that everything is fine. We don't want to admit that we have
+            believing that everything is fine. We don&apos;t want to admit that we have
             taken a step back.{" "}
           </p>
         </div>

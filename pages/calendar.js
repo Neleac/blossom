@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState } from 'react'
 import Head from 'next/head'
+import Image from 'next/image'
 
 import Navbar from '../src/calendarUtils.js'
 import { mainContent, Reflection, todo, headerOfdate } from '../src/calendarUtils.js'
-import newstyle from '../styles/calendar.module.css'
+import newstyle from '../styles/Calendar.module.css'
 
 
 function Home() {
@@ -85,11 +86,11 @@ function Home() {
           </table>
           <div className={newstyle.Mood} >
             <h2><a href='\mood'>Mood</a></h2>
-            <a href='\mood'><img className={newstyle.logo} alt="Smily faces" src="./smily.png"></img></a>
+            <a href='\mood'><Image className={newstyle.logo} alt="Smily faces" src="./smily.png"></Image></a>
           </div>
           <div className={newstyle.Growth} >
             <h2><a href='\growth'>Growth </a></h2>
-            <a href='\growth'> <img className={newstyle.logo} alt="Growth chart" src="./growth.jpg"></img></a>
+            <a href='\growth'> <Image className={newstyle.logo} alt="Growth chart" src="./growth.jpg"></Image></a>
           </div>
         </div>
 
