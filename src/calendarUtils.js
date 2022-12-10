@@ -7,19 +7,19 @@ export default function Navbar() {
       <img
         className={elstyle.logo}
         alt="Blossom Logo"
-        src="./blossom.logo.png"
+        src="name.png"
       ></img>
       <p className={elstyle.sitetitle}>Calendar</p>
       <div className={elstyle.navicons}>
         <a href="\home">
           {" "}
-          <img className={elstyle.homeicon} alt=" Home" src="./home.png"></img>
+          <img className={elstyle.homeicon} alt=" Home" src="home.png"></img>
         </a>
         <a href="\signup">
           <img
             className={elstyle.profileicon}
             alt=" profile"
-            src="./profile.png"
+            src="profile.png"
           ></img>{" "}
         </a>
       </div>
