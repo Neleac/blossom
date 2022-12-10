@@ -86,11 +86,11 @@ function Home() {
           </table>
           <div className={newstyle.Mood} >
             <h2><a href='\mood'>Mood</a></h2>
-            <a href='\mood'><Image className={newstyle.logo} alt="Smily faces" src="./smily.png"></Image></a>
+            <a href='\mood'><Image className={newstyle.logo} alt="Smily faces" src="/smily.png" width={100} height={100}></Image></a>
           </div>
           <div className={newstyle.Growth} >
             <h2><a href='\growth'>Growth </a></h2>
-            <a href='\growth'> <Image className={newstyle.logo} alt="Growth chart" src="./growth.jpg"></Image></a>
+            <a href='\growth'> <Image className={newstyle.logo} alt="Growth chart" src="/growth.jpg" width={100} height={100}></Image></a>
           </div>
         </div>
 
